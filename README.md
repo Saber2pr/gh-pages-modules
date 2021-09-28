@@ -1,7 +1,21 @@
 ### gh-pages-modules
 
 ```yml
-uses: Saber2pr/gh-pages-modules@master
-with:
-  url: https://xxx.git # repo clone url (repo should have branch gh-pages)
+name: SubPages-Ci
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'SubPage Clone Url'
+        required: true
+        
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Saber2pr/gh-pages-modules@v0.0.3
+        with:
+          url: ${{github.event.inputs.url}} # repo clone url (repo should have branch gh-pages)
+
 ```
