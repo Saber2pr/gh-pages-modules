@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "gh-pages-modules",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "publish gh-pages with git modules",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
