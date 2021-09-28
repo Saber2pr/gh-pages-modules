@@ -1,4 +1,7 @@
 name: 'gh-pages-modules'
+branding:
+  icon: arrow-up-circle
+  color: blue
 description: 'publish gh-pages with git modules'
 author: 'saber2pr'
 inputs:
