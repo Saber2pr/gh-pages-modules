@@ -19,8 +19,9 @@
   },
   "keywords": [
     "actions",
-    "node",
-    "setup"
+    "gh-pages",
+    "git",
+    "submodules"
   ],
   "author": "saber2pr",
   "license": "MIT",
