@@ -1,11 +1,17 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'gh-pages-modules'
+description: 'publish gh-pages with git modules'
+author: 'saber2pr'
 inputs:
-  milliseconds: # change this
+  url:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'sub gh-pages clone url'
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "composite"
+  steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        ref: gh-pages
+
+    - run: ${{ github.action_path }}/scripts/gh-pages-modules.sh ${{ inputs.who-to-greet }}
+      shell: bash
