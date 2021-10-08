@@ -35,6 +35,6 @@ runs:
         # deploy
         page_url=${{ inputs.url }}
         git add .
-        git commit -a -m "feat: deploy subpage from $page_url"
+        git commit -a -m "feat: deploy subpage from $page_url" --allow-empty
         git push origin gh-pages
       shell: bash

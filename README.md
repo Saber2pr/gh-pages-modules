@@ -14,7 +14,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Saber2pr/gh-pages-modules@v0.0.7
+      - uses: Saber2pr/gh-pages-modules@v0.0.8
         with:
           url: ${{github.event.inputs.url}} # repo clone url (repo should have branch gh-pages)
 
