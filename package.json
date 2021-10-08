@@ -1,6 +1,6 @@
 {
   "name": "gh-pages-modules",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": true,
   "description": "publish gh-pages with git modules",
   "scripts": {},
