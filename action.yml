@@ -18,8 +18,8 @@ runs:
 
     - run: |
         # config
-        git config user.name github-actions
-        git config user.email github-actions@github.com
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
 
         get_repo_name() {
           echo $1 | tr '/' '\n' | tail -n 1 | tr '.' '\n' | head -n 1
