@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/Saber2pr/gh-pages-modules/compare/v0.0.7...v0.0.8) (2021-10-08)
+
+
+### Features
+
+* allow-empty ([70ae10f](https://github.com/Saber2pr/gh-pages-modules/commit/70ae10fb0eb476cd13ba6f4b55a42203359fb6f3))
+
 ### [0.0.7](https://github.com/Saber2pr/gh-pages-modules/compare/v0.0.6...v0.0.7) (2021-10-08)
 
 
